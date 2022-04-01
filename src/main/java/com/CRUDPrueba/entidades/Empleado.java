@@ -22,6 +22,7 @@ public class Empleado {
     private String apellidos;
     private Integer edad;
     private String telefono;
+    private String foto;
 
     public Integer getCodigo() {
         return codigo;
@@ -61,6 +62,14 @@ public class Empleado {
 
     public void setTelefono(String telefono) {
         this.telefono = telefono;
+    }
+
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
     }
     
 }
